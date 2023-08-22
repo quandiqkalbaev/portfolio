@@ -1,0 +1,56 @@
+.link {
+  .container {
+    padding: 0 15px;
+  }
+
+  &__wrapper {
+    margin-top: 34px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 30px 0;
+  }
+  &__title {
+    font-family: $ffRMReg;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    text-align: center;
+    text-transform: lowercase;
+  }
+  &__subtitle {
+    color: var(--gray-dark-600, #d1d5db);
+    text-align: center;
+    font-family: $ffRMReg;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 140% */
+    margin-top: 30px;
+  }
+  &__mail,
+  &__phone {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    margin-top: 16px;
+    a{
+        margin: 0 8px;
+    }
+  }
+  &__social {
+    &-text {
+      color: var(--gray-dark-600, #d1d5db);
+      text-align: center;
+      /* Body2/Normal - All */
+      font-family: $ffRMReg;
+      font-size: 12px;
+      font-style: normal;
+      font-weight: 300;
+      line-height: 150%;
+      margin-top: 16px;
+    }
+    margin: 0 auto;
+    margin-top: 16px;
+  }
+}

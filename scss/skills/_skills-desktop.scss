@@ -1,0 +1,23 @@
+@media (min-width: 1170px) {
+  .skills {
+    .container {
+      max-width: 1400px;
+      margin: 0 auto;
+      padding: 0 20px;
+    }
+    &__list {
+      grid-template-columns: repeat(8, 1fr);
+    }
+    &__item {
+      margin-top: 20px;
+      &-name {
+        color: var(--gray-dark-900, #f9fafb);
+        font-family: $ffRMReg;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        text-align: center;
+      }
+    }
+  }
+}

@@ -1,0 +1,24 @@
+.footer {
+  background: var(--gray-dark-50, #111827);
+  .container {
+    padding: 0 15px;
+  }
+
+  &__wrapper {
+    margin-top: 34px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px 0;
+  }
+  &__text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: $ffRMReg;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 200;
+    text-align: center;
+  }
+}

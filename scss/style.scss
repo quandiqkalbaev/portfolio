@@ -1,0 +1,43 @@
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+body {
+  min-width: 320px;
+  overflow-x: hidden;
+  font-family: "Roboto Mono", monospace;
+  background: var(--gray-dark-default, #030712);
+  color: #fff;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+@import "./reset";
+@import "./vars";
+@import "./mixins";
+@import "./fonts";
+
+@import "./header/header-mobile";
+@import "./header/header-tablet";
+@import "./header/header-desktop";
+
+@import "./about/about-mobile";
+@import "./about/about-tablet";
+@import "./about/about-desktop";
+
+@import "./skills/skills-mobile";
+@import "./skills/skills-tablet";
+@import "./skills/skills-desktop";
+
+@import "./projects/projects-mobile";
+@import "./projects/projects-tablet";
+@import "./projects/projects-desktop";
+
+@import "./link/link-mobile";
+@import "./link/link-tablet";
+@import "./link/link-desktop";
+
+@import "./footer/footer-mobile";
+@import "./footer/footer-tablet";
+@import "./footer/footer-desktop";
