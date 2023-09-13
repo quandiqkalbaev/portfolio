@@ -1,0 +1,37 @@
+@import "./reset";
+@import "./fonts";
+
+:root {
+  --white: #ffffff;
+  --black: #000000;
+  --bg-color: #030712;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  color: var(--white);
+  scroll-behavior: smooth;
+  min-width: 320px;
+  overflow-x: hidden;
+  font-family: "Roboto Mono", monospace;
+  line-height: normal;
+  background: var(--bg-color);
+}
+
+.container {
+  padding: 0 15px;
+  @media (min-width: 768px) {
+    padding: 0 20px;
+  }
+  @media (min-width: 1024px) {
+    max-width: 1220px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+}
+.no-scroll {
+  overflow: hidden;
+}

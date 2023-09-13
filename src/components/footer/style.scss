@@ -1,0 +1,22 @@
+//mobile
+.footer {
+  background: #111827;
+  &__wrapper {
+    margin-top: 34px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px 0;
+  }
+  &__text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 200;
+    text-align: center;
+  }
+}
+//tablet
+
+
