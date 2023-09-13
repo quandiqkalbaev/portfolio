@@ -88,6 +88,7 @@
       color: var(--white);
       text-transform: lowercase;
       text-align: left;
+      cursor: pointer;
     }
     &__mode {
       margin-top: 5px;
@@ -112,7 +113,7 @@
       text-transform: lowercase;
     }
   }
-  svg{
+  svg {
     fill: transparent;
   }
 }
